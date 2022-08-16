@@ -1,5 +1,5 @@
-title: Your awesome title
-author: GitHub User
+title: Dongjae LEE
+author: Dongjae LEE
 email: pur22@snu.ac.kr
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
@@ -24,11 +24,15 @@ plainwhite:
     #- home
     - page
     - post
+  navigation:
+    - title: About Me
+      url: "/aboutme/"
+    
   # generate social links in footer
   social_links:
-    twitter: samarsault
-    github:  samarsault
-    linkedIn: in/samarsault
+    #twitter: samarsault
+    github: DongjaeLEEeee
+    #linkedIn: in/samarsault
     #dribbble: jekyll
     #flickr:   jekyll
     #instagram: jekyll
@@ -46,7 +50,7 @@ plainwhite:
     #   instance: example.com
     # - username: jekyll2
     #   instance: example.com
-
+ 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 #header_pages:
