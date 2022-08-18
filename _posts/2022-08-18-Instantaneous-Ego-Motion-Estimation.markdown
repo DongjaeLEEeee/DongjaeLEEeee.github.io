@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Paper Review] Instantaneous Ego-Motion Estimation using Doppler Radar"
-date:   2022-08-18 16:36:00 +
+date:   2022-08-18 +
 categories: Radar Ego-Motion-Estimation
 ---
 
