@@ -4,6 +4,7 @@ title:  "[Paper Review] Instantaneous Ego-Motion Estimation using Doppler Radar"
 date:   2022-08-18 +
 categories: Radar Ego-Motion-Estimation
 ---
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 
 D. Kellner, M. Barjenbruch, J. Klappstein, J. Dickmann and K. Dietmayer, "Instantaneous ego-motion estimation using multiple Doppler radars," 2014 IEEE International Conference on Robotics and Automation (ICRA), 2014, pp. 1592-1597, doi: 10.1109/ICRA.2014.6907064. [[Paper]](https://ieeexplore.ieee.org/document/6728341)
 
@@ -40,7 +41,7 @@ Radar sensor가 움직일 경우, radar의 입장에서는 stationary targets가
 
 
 ### Ego-Motion Estimation
-위에서 계산한 sensor velocity와 heading direction을 통해 vehicle의 ego-motion을 추정한다. 이때 ego-vehicle을 single-track model with the Ackermann condition로 모델링하는데, Ackermann condition을 가정함으로써 wheel drift는 없고 ego-vehicle의 velocity는 real axle에 orthogonal part만 존재하게 된다. (sensor position은 (l,b), mounting angle은 (Beta)) 
+위에서 계산한 sensor velocity와 heading direction을 통해 vehicle의 ego-motion을 추정한다. 이때 ego-vehicle을 single-track model with the Ackermann condition로 모델링하는데, Ackermann condition을 가정함으로써 wheel drift는 없고 ego-vehicle의 velocity는 real axle에 orthogonal part만 존재하게 된다. (sensor position은 ($${l,b}$$), mounting angle은 ($${\beta}$$)) 
 
 Single-track model with Ackermann condition과 vehicle의 ego-motion 식은 다음과 같다.
 

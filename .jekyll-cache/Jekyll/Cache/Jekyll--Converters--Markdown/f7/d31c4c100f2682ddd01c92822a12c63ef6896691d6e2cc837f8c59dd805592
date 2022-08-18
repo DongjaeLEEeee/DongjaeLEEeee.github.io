@@ -1,81 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+I"<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 
-<head><meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link href="https://fonts.googleapis.com/css?family=Merriweather:300|Raleway:400,700" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/style.css">
-<title>[Paper Review] Instantaneous Ego-Motion Estimation using Doppler Radar</title>
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>[Paper Review] Instantaneous Ego-Motion Estimation using Doppler Radar | Dongjae LEE</title>
-<meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="[Paper Review] Instantaneous Ego-Motion Estimation using Doppler Radar" />
-<meta name="author" content="Dongjae LEE" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="http://localhost:4000/radar/ego-motion-estimation/2022/08/18/Instantaneous-Ego-Motion-Estimation.html" />
-<meta property="og:url" content="http://localhost:4000/radar/ego-motion-estimation/2022/08/18/Instantaneous-Ego-Motion-Estimation.html" />
-<meta property="og:site_name" content="Dongjae LEE" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-08-18T00:00:00+09:00" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="[Paper Review] Instantaneous Ego-Motion Estimation using Doppler Radar" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Dongjae LEE"},"dateModified":"2022-08-18T00:00:00+09:00","datePublished":"2022-08-18T00:00:00+09:00","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"[Paper Review] Instantaneous Ego-Motion Estimation using Doppler Radar","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/radar/ego-motion-estimation/2022/08/18/Instantaneous-Ego-Motion-Estimation.html"},"url":"http://localhost:4000/radar/ego-motion-estimation/2022/08/18/Instantaneous-Ego-Motion-Estimation.html"}</script>
-<!-- End Jekyll SEO tag -->
-
-
-<script type="text/javascript" src="/assets/js/darkmode.js"></script>
-
-</head><body>
-  <main class="container">
-    <section class="about">
-      <div class="about-header condensed">
-      <div class="about-title">
-      <a href="/">
-        
-        <img src="/assets/portfolio.png" alt="Dongjae LEE" />
-        
-      </a>
-      <h2 id="title">
-        <a href="/">Dongjae LEE</a>
-      </h2>
-      </div><p class="tagline">SLAM Engineer</p></div>
-      
-      <ul class="social about-footer condensed"><a href="https://github.com/DongjaeLEEeee" target="_blank">
-          <li>
-            <i class="icon-github-circled"></i>
-          </li>
-        </a></ul><nav class="navigation about-footer condensed">
-        <ul>
-          
-          <li>
-            <a href="aboutme/aboutme">About Me</a>
-          </li>
-          
-        </ul>
-      </nav><p class="about-footer condensed">&copy;
-        2022</p><div class="about-footer condensed">
-        <p>Dark Mode
-          <i class="icon-moon"></i>
-          <label class="switch">
-            <input type="checkbox" class="dark-mode-toggle">
-            <span class="slider round" onclick="toggleDarkMode()"></span>
-          </label>
-        </p>
-      </div>
-    </section>
-    <section class="content">
-      <div class="post-container">
-  <a class="post-link" href="/radar/ego-motion-estimation/2022/08/18/Instantaneous-Ego-Motion-Estimation.html">
-    <h2 class="post-title">[Paper Review] Instantaneous Ego-Motion Estimation using Doppler Radar</h2>
-  </a>
-  <div class="post-meta">
-    <div class="post-date"><i class="icon-calendar"></i>Aug 18, 2022</div><ul class="post-categories"><li>Radar</li><li>Ego-Motion-Estimation</li></ul></div>
-  <div class="post">
-    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+\[p_{\theta}(x) = \int p_{\theta}(2z)p_{\theta}(y\mid k)dz\]
 
 <p>D. Kellner, M. Barjenbruch, J. Klappstein, J. Dickmann and K. Dietmayer, “Instantaneous ego-motion estimation using multiple Doppler radars,” 2014 IEEE International Conference on Robotics and Automation (ICRA), 2014, pp. 1592-1597, doi: 10.1109/ICRA.2014.6907064. <a href="https://ieeexplore.ieee.org/document/6728341">[Paper]</a></p>
 
@@ -117,7 +42,7 @@
 <img src="/assets/post1/figure3.png" width="40%" height="40%" /></p>
 
 <h3 id="ego-motion-estimation">Ego-Motion Estimation</h3>
-<p>위에서 계산한 sensor velocity와 heading direction을 통해 vehicle의 ego-motion을 추정한다. 이때 ego-vehicle을 single-track model with the Ackermann condition로 모델링하는데, Ackermann condition을 가정함으로써 wheel drift는 없고 ego-vehicle의 velocity는 real axle에 orthogonal part만 존재하게 된다. (sensor position은 (\({l,b}\)), mounting angle은 (\({\beta}\)))</p>
+<p>위에서 계산한 sensor velocity와 heading direction을 통해 vehicle의 ego-motion을 추정한다. 이때 ego-vehicle을 single-track model with the Ackermann condition로 모델링하는데, Ackermann condition을 가정함으로써 wheel drift는 없고 ego-vehicle의 velocity는 real axle에 orthogonal part만 존재하게 된다. (sensor position은 (l,b), mounting angle은 (Beta))</p>
 
 <p>Single-track model with Ackermann condition과 vehicle의 ego-motion 식은 다음과 같다.</p>
 
@@ -135,41 +60,4 @@
 
 <h2 id="conclusion">Conclusion</h2>
 <p>이 논문에서 제안한 ego-motion estimation 방식은 아무 Doppler radar sensor에 적용할 수 있다는 장점이 있으며, radar sensor를 어디에 달던지 sensor의 position만 알고 있으면 vehicle의 velocity와 yaw rate를 추정할 수 있다. 또한 많은 수의 moving objects나 clutter가 있어도 stable하게 ego-motion을 추정할 수 있다. (그러나 이 경우 그보다 많은 수의 stationary targets가 measurement 안에 존재해야 한다.) 한계점으로는 single track model with the Ackermann condition에 의존한다는 점인데, 이는 multiple doppler radars를 사용하여 해결할 수 있다고 한다. <a href="https://ieeexplore.ieee.org/abstract/document/6907064">[pdf]</a></p>
-
-  </div></div>
-
-    </section>
-    <footer class="condensed">
-      <ul class="social about-footer condensed"><a href="https://github.com/DongjaeLEEeee" target="_blank">
-          <li>
-            <i class="icon-github-circled"></i>
-          </li>
-        </a></ul><nav class="navigation about-footer condensed">
-        <ul>
-          
-          <li>
-            <a href="aboutme/aboutme">About Me</a>
-          </li>
-          
-        </ul>
-      </nav><p class="about-footer condensed">&copy;
-        2022</p><div class="about-footer condensed">
-        <p>Dark Mode
-          <i class="icon-moon"></i>
-          <label class="switch">
-            <input type="checkbox" class="dark-mode-toggle">
-            <span class="slider round" onclick="toggleDarkMode()"></span>
-          </label>
-        </p>
-      </div>
-    </footer>
-  </main>
-  
-  <script type="text/javascript" src="/assets/js/darkmode.js"></script>
-  
-  <script src="/assets/js/simple-jekyll-search.min.js"></script>
-  <script src="/assets/js/search.js"></script>
-  
-</body>
-
-</html>
+:ET
