@@ -2,7 +2,7 @@
 layout: post
 title:  "[Paper Review] Instantaneous Ego-Motion Estimation using Doppler Radar"
 date:   2022-08-18 16:36:00 +
-categories: Radar Ego-Motion Estimation
+categories: Radar Ego-Motion-Estimation
 ---
 
 D. Kellner, M. Barjenbruch, J. Klappstein, J. Dickmann and K. Dietmayer, "Instantaneous ego-motion estimation using multiple Doppler radars," 2014 IEEE International Conference on Robotics and Automation (ICRA), 2014, pp. 1592-1597, doi: 10.1109/ICRA.2014.6907064. [[Paper]](https://ieeexplore.ieee.org/document/6728341)

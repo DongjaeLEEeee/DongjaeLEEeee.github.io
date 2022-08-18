@@ -5,9 +5,9 @@
       "title-lower"    : "[paper review] instantaneous ego-motion estimation using doppler radar",
       "sub-titile" : "",
       "sub-titile-lower" : "",
-      "categories" : "RadarEgo-MotionEstimation",
+      "categories" : "RadarEgo-Motion-Estimation",
       "tags"     : "",
-      "url"      : "/radar/ego-motion/estimation/2022/08/18/Instantaneous-Ego-Motion-Estimation.html",
+      "url"      : "/radar/ego-motion-estimation/2022/08/18/Instantaneous-Ego-Motion-Estimation.html",
       "date"     : "2022-08-18 16:36:00 +0900",
       "content"     : "D. Kellner, M. Barjenbruch, J. Klappstein, J. Dickmann and K. Dietmayer, “Instantaneous ego-motion estimation using multiple Doppler radars,” 2014 IEEE International Conference on Robotics and Auto..."
     } 
