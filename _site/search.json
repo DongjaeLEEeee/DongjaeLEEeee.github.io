@@ -1,6 +1,18 @@
 [
   
     {
+      "title"    : "[Paper Review] 3D Ego-motion Estimation using Low-cost mmWave Radars via Radar Velocity Factor for Pose-graph SLAM",
+      "title-lower"    : "[paper review] 3d ego-motion estimation using low-cost mmwave radars via radar velocity factor for pose-graph slam",
+      "sub-titile" : "",
+      "sub-titile-lower" : "",
+      "categories" : "RadarEgo-Motion-Estimation",
+      "tags"     : "",
+      "url"      : "/radar/ego-motion-estimation/2022/08/19/3D-Ego-Motion-Estimation.html",
+      "date"     : "2022-08-19 00:00:00 +0900",
+      "content"     : "Y. S. Park, Y. -S. Shin, J. Kim and A. Kim, “3D ego-Motion Estimation Using low-Cost mmWave Radars via Radar Velocity Factor for Pose-Graph SLAM,” in IEEE Robotics and Automation Letters, vol. 6, n..."
+    } ,
+  
+    {
       "title"    : "[Paper Review] Instantaneous Ego-Motion Estimation using Doppler Radar",
       "title-lower"    : "[paper review] instantaneous ego-motion estimation using doppler radar",
       "sub-titile" : "",
